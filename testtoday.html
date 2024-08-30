@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #2c3e50;
+            color: white;
+            padding: 40px;
+        }
+        .main-content {
+            width: 70%;
+            padding: 40px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .sidebar h2 {
+            color: #ecf0f1;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        .contact-info, .skills, .certifications {
+            margin-top: 20px;
+        }
+        .contact-info p, .skills li, .certifications li {
+            margin-bottom: 10px;
+        }
+        .job, .education-item, .project {
+            margin-bottom: 30px;
+        }
+        .job-title, .degree, .project-name {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .job-period, .education-period {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .company, .institution {
+            font-weight: 500;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="your-profile-picture.jpg" alt="Your Name" class="profile-img">
+            <h1>Your Name</h1>
+            <p>Information Technology Professional</p>
+            
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Location: Los Angeles, CA</p>
+                <p>LinkedIn: linkedin.com/in/yourprofile</p>
+            </div>
+            
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Technical Support</li>
+                    <li>System Administration</li>
+                    <li>Troubleshooting</li>
+                    <li>Documentation</li>
+                    <li>User Training</li>
+                    <li>Network Diagnostics</li>
+                    <li>Change Management</li>
+                    <li>SDLC Processes</li>
+                </ul>
+            </div>
+
+            <div class="certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>CompTIA A+</li>
+                    <li>ITIL Foundation</li>
+                    <li>Microsoft Certified: Azure Fundamentals</li>
+                    <!-- Add more certifications as needed -->
+                </ul>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                
+                <div class="job">
+                    <p class="job-title">Information Technology Technical Support Analyst II</p>
+                    <p class="job-period">December 2022 to Present</p>
+                    <p class="company">Los Angeles County Department of Public Health</p>
+                    <ul>
+                        <li>Performed hands-on testing of new applications and virtual desktop environments.</li>
+                        <li>Collaborated with teams to create comprehensive support documentation.</li>
+                        <!-- Add other bullet points here -->
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <p class="job-title">Information Technology Technical Support Analyst II</p>
+                    <p class="job-period">August 2017 to December 2022</p>
+                    <p class="company">Los Angeles County Internal Services Department</p>
+                    <ul>
+                        <li>Elicited and documented user requirements by conducting interviews and workflow analysis.</li>
+                        <li>Followed established procedures for documentation by creating knowledge base articles.</li>
+                        <!-- Add other bullet points here -->
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <p class="job-title">Information Technology Aide</p>
+                    <p class="job-period">April 2016 to August 2017</p>
+                    <p class="company">Los Angeles County Probation Department, CA</p>
+                    <ul>
+                        <li>Supported the DOJ's infrastructure, operations, and system registration needs.</li>
+                        <li>Served as the administrator of the Probation Online Systems Registration application.</li>
+                        <!-- Add other bullet points here -->
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <p class="degree">Bachelor of Science in Information Technology</p>
+                    <p class="education-period">2012 - 2016</p>
+                    <p class="institution">University of California, Los Angeles</p>
+                </div>
+                <!-- Add more education items if needed -->
+            </section>
+
+            <section id="projects">
+                <h2>Key Projects</h2>
+                <div class="project">
+                    <p class="project-name">Virtual Desktop Environment Implementation</p>
+                    <ul>
+                        <li>Led the testing and deployment of AWS AppStream and Microsoft Windows Virtual Desktop.</li>
+                        <li>Improved remote work capabilities for over 3,000 users.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Knowledge Base Optimization</p>
+                    <ul>
+                        <li>Revamped the IT knowledge base, resulting in a 30% increase in first-call resolutions.</li>
+                        <li>Developed a new structure for articles, improving searchability and usability.</li>
+                    </ul>
+                </div>
+                <!-- Add more projects as needed -->
+            </section>
+        </main>
+    </div>
+</body>
+</html>
